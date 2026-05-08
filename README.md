@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# Vue 3 智能计算器与单位转换器
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 🚀 项目简介
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+这是一个基于 Vue 3 开发的综合性计算工具。它不仅能进行基础运算，还集成了科学计算、单位转换以及历史记录持久化功能。
+
+## ✨ 主要功能
+
+- **基础运算**：加、减、乘、除、取余。
+- **科学计算**：支持 `sin`、`sqrt`（开方）、`x²`（平方）。
+- **单位转换**：支持长度（m/km/cm等）、重量（kg/g等）、温度（C/F/K）的转换。
+- **历史记录**：自动记录最近10条计算结果，支持点击复用和一键清存。
+- **主题切换**：支持深色模式/浅色模式切换。
+- **键盘支持**：支持键盘数字键输入及 Enter 计算。
+
+## 🛠️ 运行步骤
+
+1.  **安装依赖**：`npm install`
+2.  **启动开发服务器**：`npm run dev`
+3.  **浏览器访问**：打开 `http://localhost:5173/` 即可使用。
